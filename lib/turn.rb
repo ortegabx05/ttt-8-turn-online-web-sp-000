@@ -38,7 +38,6 @@ def turn(board)
     if valid_move?(board,index)
       true
       move(board,index,value="X")
-      turn(board)
     else puts "try again"
       false
       turn(board)
